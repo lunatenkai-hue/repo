@@ -1,0 +1,129 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Luna Online Tenkai Wiki",
+  "colors": {
+    "primary": "#6D5BD0",
+    "light": "#A99BF0",
+    "dark": "#4B3BA8"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Panduan Game",
+        "groups": [
+          {
+            "group": "Mulai Di Sini",
+            "pages": ["index", "server-rate"]
+          },
+          {
+            "group": "Gameplay & Combat",
+            "pages": [
+              "fitur/world-boss-pk-zone",
+              "fitur/dungeon",
+              "fitur/battle-pass"
+            ]
+          },
+          {
+            "group": "Guild & Kompetitif",
+            "pages": ["fitur/castle-siege", "fitur/guild-tournament"]
+          },
+          {
+            "group": "Equipment & Upgrade",
+            "pages": [
+              "fitur/upgradable-equipment",
+              "fitur/enchant",
+              "fitur/reinforcement",
+              "fitur/tier-equipment",
+              "fitur/socket-card-remover",
+              "fitur/philosopher"
+            ]
+          },
+          {
+            "group": "Character Progression",
+            "pages": [
+              "fitur/job-tree",
+              "fitur/title",
+              "fitur/collection",
+              "fitur/card",
+              "fitur/pet"
+            ]
+          },
+          {
+            "group": "Quality of Life",
+            "pages": [
+              "fitur/dual-client",
+              "fitur/wasd-movement",
+              "fitur/auto-potion",
+              "fitur/inspect-equipment",
+              "fitur/sort-inventory"
+            ]
+          },
+          {
+            "group": "Crafting & Life Skills",
+            "pages": [
+              "fitur/crafting",
+              "fitur/cooking",
+              "fitur/fishing",
+              "fitur/gardening"
+            ]
+          },
+          {
+            "group": "Social & Community",
+            "pages": ["fitur/housing", "fitur/family", "fitur/married"]
+          },
+          {
+            "group": "Event & Reward",
+            "pages": [
+              "fitur/daily-event",
+              "fitur/warzone-event",
+              "fitur/weekly-raid-boss",
+              "fitur/weekend-exp-boost",
+              "fitur/afk-coin"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Event",
+        "groups": [
+          {
+            "group": "Ringkasan",
+            "pages": ["event/index"]
+          },
+          {
+            "group": "Pre-Registration",
+            "pages": ["event/tag-n-share"]
+          },
+          {
+            "group": "Closed Beta Test (CBT)",
+            "pages": [
+              "event/capture-n-share",
+              "event/bug-hunter",
+              "event/cbt-fast-leveling",
+              "event/cbt-guild-tournament",
+              "event/cbt-castle-siege",
+              "event/cbt-raid-boss",
+              "event/cbt-warzone",
+              "event/player-online"
+            ]
+          },
+          {
+            "group": "Open Beta Test (OBT)",
+            "pages": [
+              "event/obt-fast-leveling",
+              "event/obt-guild-tournament-league",
+              "event/obt-castle-siege-league",
+              "event/obt-warzone",
+              "event/obt-pvp-per-job",
+              "event/obt-tempa"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}
